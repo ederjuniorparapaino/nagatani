@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Churrasquería Deliciosa</title>
+    <link rel="stylesheet" href="css/estilo2.css">
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carousel-background">
+        <div class="carousel-slide" style="background-image: url('img/firey-barbecue-barbecue.gif');"></div>
+        <div class="carousel-slide" style="background-image: url('img/churrascopremium.jpg');"></div>
+        <div class="carousel-slide" style="background-image: url('img/churrascotradicional.jpg');"></div>
+    </div>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contacto-section">
+        <h2>¡Estamos aquí para ayudarte!</h2>
+        <p>Si tienes alguna pregunta, comentario o sugerencia, no dudes en contactarnos. Completa el siguiente formulario o utiliza nuestros datos de contacto.</p>
+
+        <!-- Formulario de contacto -->
+        <form action="enviar_formulario.php" method="POST" class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+
+        <!-- Información de contacto -->
+        <div class="contact-info">
+            <h3>Nuestra ubicación</h3>
+            <p><strong>Dirección:</strong> Av. Beni tercer anillo interno</p>
+            <p><strong>Teléfono:</strong> 78156310</p>
+            <p><strong>Correo electrónico:</strong> churrasqueriadeliciosa@gamil.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h3>Churrasqueria delicia</h3>
+            <p>
+                Sabor a la parrilla, pasión en cada bocado
+            </p>
+          </div>
+          <div class="footer-section links">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="menu.html">Menu del Dia</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact">
+            <h3>Contacto</h3>
+            <p>Email: churrasqueriadeliciosa@gamil.com</p>
+            <p>Teléfono: +591 733 879 80</p>
+          </div>
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
+  
+
+    <script src="menu.js"></script>
+</body>
+</html>
